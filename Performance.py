@@ -123,7 +123,7 @@ def program_rate(recommend_question):
     star_rating = int(input("What would you like to rate this program? 1 - 5 stars: ")) # Asks the user how many stars they would rate the program out of
    
     if star_rating < 1 or star_rating > 5:
-        print("That's not a valid number! Please rate between 1 and 5.") # If the user gives an invald number it tells them to input a correct one
+        print("That's not a valid number! Please rate between 1 and 5.") # If the user gives an invalid number it tells them to input a correct one
     else:
         print(f"{star_rating} stars out of {max_stars} stars! Thank you!") # Displays the user's star rating out of the max amount of stars for the program
    
