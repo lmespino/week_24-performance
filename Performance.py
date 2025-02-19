@@ -127,7 +127,7 @@ def program_rate(recommend_question):
     else:
         print(f"{star_rating} stars out of {max_stars} stars! Thank you!") # Displays the user's star rating out of the max amount of stars for the program
    
-    # Function to start the beginning of the restaurant program
+# Function to start the beginning of the restaurant program
 def start_restaurant_program(program_response):
     # The program ends here if the user decides to not use the program
     if program_response == "no":
@@ -152,7 +152,7 @@ def start_restaurant_program(program_response):
     # This takes the users response and then displays the restaurant's menu they have chosen
     restaurant_question(restaurant_response)
    
-    # Function to continue the restaurant program but this asks the user if they would like to look at the desert menu
+# Function to continue the restaurant program but this asks the user if they would like to look at the desert menu
 def program_continuation_dessert(dessert_response):
     # This function ends here if the user decides to not look at the dessert menu
     if dessert_response == "no":
